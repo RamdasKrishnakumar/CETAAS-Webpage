@@ -6829,10 +6829,10 @@ p.checkout-coupon input[type="text"] {
 ====================================================================
 
 ***/
-
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
 .heading1a {
 	color: #000;
-	font-size: 45px;
+	font-size: 43px;
 	font-weight: bold;
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Teko', sans-serif;
   }
