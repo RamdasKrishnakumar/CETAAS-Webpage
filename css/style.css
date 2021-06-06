@@ -1708,8 +1708,8 @@ border-radius: 10px;
 .team-info {
 	background: #fff;
 transform: translateY(0);
-padding: 30px 20px;
-transition: .3s;
+padding: 35px 60px;
+transition: 1s;
 box-shadow: 3px 4px 15px #00000026;
 position: relative;
 overflow: hidden;
