@@ -9,7 +9,7 @@ loginButton.addEventListener("click", (e) => {
 
     if (username === "user" && password === "web_dev") {
         alert("You have successfully logged in.");
-        window.location.replace("file:///E:/cetaa/cetaa%20site/index.html");
+        window.location.replace("google_drive docs.html");
     } else {
         loginErrorMsg.style.opacity = 1;
     }
