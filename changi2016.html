@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>CETAAS</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" type="image/x-icon" href="img/logo/logo.ico">
+        <!-- Place favicon.ico in the root directory -->
+
+		<!-- CSS here -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/animate.min.css">
+        <link rel="stylesheet" href="css/magnific-popup.css">
+        <link rel="stylesheet" href="fontawesome/css/all.min.css">
+        <link rel="stylesheet" href="font-flaticon/flaticon.css">
+        <link rel="stylesheet" href="css/dripicons.css">
+        <link rel="stylesheet" href="css/slick.css">
+        <link rel="stylesheet" href="css/default.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+<style>
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  border-radius: 0 10px 10px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+</style>
+<body>
+
+<!-- header -->
+<header class="header-area">  
+  <div class="header-top second-header d-none d-md-block">
+      <div class="container">
+          <div class="row align-items-center">                                              
+                  <div class="col-xl-1 col-lg-2">
+                      <div class="logo">
+                          <a href="index.html"><img src="img/logo/logo2.png" alt="logo"></a>
+                      </div>
+                  </div>
+                  
+                  <div class="col-xl-2 col-lg-2">
+                      
+                  </div>
+                  <div>
+                      <h1 class="heading1a">CET Alumni Association Singapore</h1>
+                  </div>
+          </div>
+      </div>
+  </div>				
+  <div id="header-sticky" class="menu-area">
+      <div class="container">
+          <div class="second-menu">
+              <div class="row align-items-center">
+                  <div class="col-xl-1 col-lg-2">
+                      <div class="logo">
+                          <a href="index.html"><img src="img/logo/logo.png" alt="logo"></a>
+
+                      </div>
+                  </div>
+                  <div class="col-xl-9 col-lg-9">
+                      <div class="responsive"><i class="icon dripicons-align-right"></i></div>
+                      <div class="main-menu text-right text-xl-right">
+                          <nav id="mobile-menu">
+                              <ul>
+                                  <li class="has-sub">
+                                      <a href="index.html">Home</a>
+                                  </li>
+                                  <li class="has-sub">
+                                      <a href="about.html">About Us</a>
+                                      <ul>													
+                                          <li><a href="about.html">Who are we?</a></li>
+                                          <li><a href="team.html">Meet the Team</a></li>
+                                      </ul>
+                                  </li>                                                     
+                                  <li class="has-sub"> 
+                                      <a href="events.html"> Events</a>
+                                      <ul>													
+                                          <li><a href="events.html">Upcoming Events</a></li>
+                                          <li><a href="past_events.html">Gallery</a></li>
+                                      </ul>
+                                  </li>
+                                  <li class="has-sub"> 
+                                      <a href="contribute.html">Contribute</a>
+                                  </li>
+                                  <li class="has-sub"> 
+                                      <a href="pricing.html">Join Us</a>
+                                      <ul>													
+                                          <li><a href="pricing.html">Membership</a></li>
+                                          <li><a href="Interestgrps.html">Interest Groups</a></li>
+                                      </ul>
+                                  </li>                       
+                                  <li><a href="contact.html">Contact</a></li>   
+                                  <li><a href="login.html">Log In</a></li>                                               
+                              </ul>
+                          </nav>
+                      </div>
+                  </div>   
+              </div>
+          </div>
+      </div>
+  </div>
+</header>
+<!-- header-end -->
+    <!-- main-area -->
+    <main>
+        
+        <!-- search-popup -->
+    <section class="modal fade bs-example-modal-lg search-bg popup1" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content search-popup">
+                <div class="text-center">
+                    <a href="#" class="close2" data-dismiss="modal" aria-label="Close">× close</a>
+                </div>
+                <div class="row search-outer">
+                    <div class="col-md-11"><input type="text" placeholder="Search for products..." /></div>
+                    <div class="col-md-1 text-right"><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /search-popup -->
+        <!-- breadcrumb-area -->
+        <section class="breadcrumb-area d-flex align-items-center" style="background-image:url(events/changi2016/24.jpg)">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 offset-xl-3 col-lg-8 offset-lg-2">
+                        <div class="breadcrumb-wrap text-center">
+                            <div class="breadcrumb-title mb-30">
+                                <h2>Changi Chalet 2016</h2>                                    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- breadcrumb-area-end -->
+
+<br>
+<br>
+<div class="container">
+  <div class="mySlides">
+    <img src="events/changi2016/1.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <img src="events/changi2016/2.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <img src="events/changi2016/3.jpg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <img src="events/changi2016/4.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <img src="events/changi2016/5.jpg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <img src="events/changi2016/6.jpg" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <img src="events/changi2016/7.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <img src="events/changi2016/8.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <img src="events/changi2016/9.jpg" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <img src="events/changi2016/10.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <img src="events/changi2016/11.jpg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <img src="events/changi2016/12.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <img src="events/changi2016/13.jpg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <img src="events/changi2016/14.jpg" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <img src="events/changi2016/15.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <img src="events/changi2016/16.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <img src="events/changi2016/17.jpg" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <img src="events/changi2016/18.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <img src="events/changi2016/19.jpg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <img src="events/changi2016/20.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <img src="events/changi2016/21.jpg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <img src="events/changi2016/22.jpg" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <img src="events/changi2016/23.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <img src="events/changi2016/24.jpg" style="width:100%">
+  </div>
+
+
+
+    
+  
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+<!-- footer -->
+<footer class="footer-bg footer-p pt-90">
+  <div class="copyright-wrap">
+      <div class="container">
+          <div class="row align-items-center">
+              <div class="col-4">
+                  <div class="footer-social">                                    
+                      </div>    
+              </div>
+          </div>
+      </div>
+  </div>
+</footer>
+<!-- footer-end -->
+
+<!-- JS here -->
+<script src="js/vendor/modernizr-3.5.0.min.js"></script>
+<script src="js/vendor/jquery-1.12.4.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/one-page-nav-min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/ajax-form.js"></script>
+<script src="js/paroller.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/js_isotope.pkgd.min.js"></script>
+<script src="js/imagesloaded.min.js"></script>
+<script src="js/parallax.min.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/jquery.counterup.min.js"></script>
+<script src="js/jquery.scrollUp.min.js"></script>
+<script src="js/parallax-scroll.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/element-in-view.js"></script>
+<script src="js/main.js"></script>
+    
+</body>
+</html>

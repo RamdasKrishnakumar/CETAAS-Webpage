@@ -1006,6 +1006,7 @@ color: #fff;}
 .sinature-box {
     background: #3763eb;
     position: absolute;
+	opacity: .85;
     top: 55%;
     left: 0;
     width: 64%;
